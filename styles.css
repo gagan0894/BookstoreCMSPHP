@@ -1,0 +1,195 @@
+.buttonLink {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  width:auto;
+}
+.changelink{
+    color:#1217b3;
+}
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td img, 
+th img {
+  margin: 0;
+  padding: 0;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  white-space: nowrap;
+}
+
+.error {
+  color: #f00;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 0 0 10px 0;
+  text-align: left;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+input {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  border: 0;
+  background-color: #1217b3;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 110%;
+  margin-top: 10px;
+}
+
+#dashboard {
+  padding: 0;
+  margin-left: 470px;
+}
+
+#dashboard li a:link,
+#dashboard li a:visited,
+#dashboard li a:active,
+#dashboard li a:hover {
+  color: #fff;
+}
+#dashboard li {
+    background-color: #121a1c;
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    list-style: none;
+    list-style-position: inside;
+    border: none;
+    height: 200px;
+}
+#dashboard i {
+  margin-bottom: 5px;
+}
+
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url(images/bookstore-back.jpg);  
+}  
+button {   
+       background-color: #1217b3;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }     
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid #1217b3;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+        
+     
+ .container {   
+        padding: 25px;  
+        margin-top: 50px; 
+        background-color: lightblue;  
+    } 
+
+    #heading{
+        width: 100%;
+        height: 70px;
+        background-color: #1217b3;
+        color:white;
+        text-align: center;
+    }
+
+    #title{
+        padding-top:10px;
+    }
+
+    .topnav {
+  overflow: hidden;
+  background-color: #121a1c;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1217b3;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  height: 500px;
+  padding-top:20px;
+}
